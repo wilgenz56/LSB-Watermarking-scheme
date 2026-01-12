@@ -9,10 +9,10 @@ Bit Conversion: The input string is converted into a binary stream (8 bits per c
 Random Selection: For every bit in the message, the algorithm selects a random coordinate (x,y) that hasn't been used yet.
 
 Embedding: The LSB of the blue channel (pixel[0]) is modified using bitwise operations:
-$$ pixel[0]=(pixel[0] & 254) ∣ bit $$
+$$pixel[0]=(pixel[0] & 254) ∣ bit$$
 
 Extraction: To retrieve the message, the algorithm visits the pixels in the exact order stored in the map_list and extracts the LSB:
-$$ bit=pixel[0] & 1 $$
+$$bit=pixel[0] & 1$$
 
 # Getting Started
 Prerequisites:
