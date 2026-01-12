@@ -1,5 +1,5 @@
-# LSB-Watermarking-scheme
-A simple python code that lets you insert and extract a watermark inside an image, using the LSB scheme.
+# LSB Watermarking scheme
+A simple python code that lets you insert and extract a watermark inside an image using the LSB scheme.
 
 ## Implementation
 This implementation uses randomized pixel mapping. This adds a layer of obfuscation: even if someone knows steganography was used, they cannot easily retrieve the message without the specific coordinate map used during embedding.
